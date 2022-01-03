@@ -2,4 +2,5 @@
 
 cd /Users/erdemisbilen/Angular/fashionWebScraping/fashionWebScraping
 echo BOYNER SPIDER START
+source env/bin/activate
 scrapy crawl -o rawdata_BOYNER.json -t jsonlines fashionBOYNER
